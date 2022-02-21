@@ -1,0 +1,13 @@
+/* || Basic reset styling */
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}

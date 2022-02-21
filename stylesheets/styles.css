@@ -1,0 +1,12 @@
+/* || Base Stylesheet  */
+@import "/stylesheets/base.css";
+
+/* || Reset Stylesheet  */
+@import "/stylesheets/reset.css";
+
+/* || Colors Stylesheet  */
+@import "/stylesheets/colors.css";
+
+/* || Pages Stylesheets   */
+@import "/home/navbar.css";
+@import "/home/card.css";
