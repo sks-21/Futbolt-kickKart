@@ -1,0 +1,65 @@
+.page-container {
+    grid-template-rows: 8rem 1fr;
+    height: 100vh;
+    grid-template-areas:
+        "nav"
+        "main";
+    font-size: 1.6rem;
+}
+
+.ecom-nav {
+    grid-area: nav;
+}
+
+.login-container {
+    grid-area: main;
+    height: calc(100vh - 8.9rem);
+    border-radius: 10px;
+    gap: 1.6rem;
+}
+
+.form-1 {
+    padding: 2.4rem;
+    border: 2px solid var(--color-gray-light);
+    background-color: var(--color-gray-light);
+}
+
+.auth-heading {
+    font-size: 5rem;
+    font-weight: bold;
+    color: var(--color-primary);
+    text-align: center;
+}
+
+.link-containers{
+    justify-content: space-between;
+}
+
+.btn-login {
+    margin: 1.6rem 0;
+    width: 100%;
+}
+
+.login-terms {
+    cursor: pointer;
+}
+
+.link-forgot{
+    text-decoration: none;
+    color: var(--color-primary-light)
+}
+
+.btn-link-login {
+    width: 100%;
+    margin: 0;
+}
+
+.form-input {
+    border-radius: 5px;
+    border: 2px solid var(--color-gray);
+}
+
+.form-input:focus {
+    outline: none;
+    border: 2px solid var(--color-primary);
+}
