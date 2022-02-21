@@ -8,7 +8,9 @@
     height: 25rem;
 }
 
-.horizontal-card-content, .horizontal-card-img-container,.card-details {
+.horizontal-card-content,
+.horizontal-card-img-container,
+.card-details {
     height: 26rem;
 }
 
@@ -28,6 +30,6 @@
 
 }
 
-.quantity-text{
-    padding: 5px ;
+.quantity-text {
+    padding: 5px;
 }
