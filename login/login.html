@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | kickKart</title>
+    <script src="https://kit.fontawesome.com/0a41da8839.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://futbolt-ui.netlify.app/components/component.css">
+    <link rel="stylesheet" href="/stylesheets/styles.css">
+    <link rel="stylesheet" href="/login/login.css">
+</head>
+
+<body>
+    <div class="page-container">
+
+        <!-- || Navbar  -->
+        <nav class="ecom-nav nav flx-row flx-main-center flx-space-between flx-wrap">
+            <a href="/index.html" class="flx-row flx-center ecom-title-container">
+                <div class="navbar-logo">
+                    <img src="/assets/images/img-logo.png" alt="navbar logo" loading="eager" class="navbar-logo-img" />
+                </div>
+                <div class="nav-title nav-search-title">kickKart</div>
+            </a>
+            <div class="flx-row flx-center nav-search">
+                <input type="text" id="std-search" class="nav-search-bar" placeholder="Search for products..." /><span
+                    class="nav-search-span"><i class="fas fa-search nav-search-icon"></i></span>
+            </div>
+
+            <div class="nav-links-container-2 flx-row flx-center flx-wrap">
+                <button class="btn btn-outline nav-btn margin-y-8">Logout</button>
+
+                <ul class="nav-list flx-row flx-main-center pd-8">
+                    <li class="nav-list-item">
+                        <a href="/wishlist/wishlist.html" class="nav-link">
+                            <div class="badge-container nav-icon-container">
+                                <div class="badge-num">9+</div>
+                                <i class="far fa-heart nav-icon"></i>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a href="/cart/cart.html" class="nav-link">
+                            <div class="badge-container nav-icon-container">
+                                <div class="badge-num">9+</div>
+                                <i class="fas fa-shopping-cart nav-icon"></i>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="flx-col  flx-center login-container">
+            <!-- || Login  -->
+
+            <form action="#" class="form-1">
+
+                <div class="auth-heading"> Login</div>
+
+                <div class="form-comp-2">
+                    <label for="email" class="form-label">Enter email<sup class="sup-script txt-red">*</sup></label>
+                    <input type="email" id="email" class="form-input form-input-text">
+                </div>
+
+                <div class="form-comp-2">
+                    <label for="pswd" class="form-label">Enter password<sup class="sup-script txt-red">*</sup></label>
+                    <input type="password" id="pswd" class="form-input">
+                </div>
+
+                <div class="flx-row link-containers">
+                    <div>
+                        <input type="checkbox" name="login-terms" id="login-terms">
+                        <label for="login-terms" class="login-terms">Remember me</label>
+                    </div>
+                    <div> <a href="#" class="link-forgot">Forgot password</a></div>
+                </div>
+                <button class="btn btn-solid btn-login">Login</button>
+
+                <button class="btn btn-link btn-link-login">Create new account <i
+                        class="fas fa-arrow-right"></i></button>
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
