@@ -1,0 +1,20 @@
+.ecom-nav {
+    height: 8rem;
+}
+
+.main-heading {
+    font-size: 4rem;
+    margin: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-container {
+    padding: 0rem 5rem;
+    justify-content: center;
+}
+
+.overlay-btn-heart {
+    background-color: var(--color-error);
+    color: var(--color-white);
+}
