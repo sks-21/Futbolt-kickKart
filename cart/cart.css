@@ -1,0 +1,56 @@
+.page-container {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 8rem 1fr;
+    grid-template-areas:
+        "nav nav"
+        "main main"
+    ;
+    gap: 2rem;
+}
+
+.ecom-nav {
+    grid-area: nav;
+}
+
+.main-container {
+    grid-area: main;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.main-heading {
+    font-size: 4rem;
+}
+
+.wrapper {
+    gap: 20px;
+    height: 100%;
+    min-width: 90rem;
+}
+
+.product-container {
+    width: 60%;
+    height: 100%;
+}
+
+.price-container {
+    font-size: 1.6rem;
+    width: 40%;
+}
+
+li.list-custom-item-heading {
+    color: var(--color-text-dark);
+    font-size: 2.4rem;
+}
+
+.btn-checkout {
+    width: 100%;
+    margin: 0;
+}
+
+.list-custom {
+    width: 100%;
+    margin: 0;
+}
