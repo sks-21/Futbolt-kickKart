@@ -6,7 +6,7 @@
         "nav nav"
         "main main"
     ;
-    gap: 20px;
+    gap: 2rem;
 }
 
 .ecom-nav {
@@ -17,7 +17,7 @@
     grid-area: main;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 2rem;
 }
 
 .main-heading {
@@ -40,16 +40,17 @@
     width: 40%;
 }
 
-li.list-custom-item-heading{
+li.list-custom-item-heading {
     color: var(--color-text-dark);
     font-size: 2.4rem;
 }
 
-.btn-checkout{
+.btn-checkout {
     width: 100%;
     margin: 0;
 }
-.list-custom{
+
+.list-custom {
     width: 100%;
-    margin: 0 ;
+    margin: 0;
 }

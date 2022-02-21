@@ -17,13 +17,11 @@
     justify-content: flex-start;
     align-items: center;
     gap: 5px;
-    /* height:fit-content; */
 }
 
 
 .quantity-btn {
     font-size: 2rem;
-    /* width: 0.4rem; */
     padding: 4px 10px;
     border-radius: 50%;
     background-color: var(--color-primary-light);
