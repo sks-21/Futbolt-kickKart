@@ -3,6 +3,8 @@
 **kickKart** is a ecommerce web app. It is the one stop place for all footballing jerseys, accessories and equipments.
 It aims at offering wide range of products right from famous team jerseys to football equipments.
 
+![kart 01](https://user-images.githubusercontent.com/47688809/155254860-90e1e48e-f5a5-48a8-b448-4f98ba4007a7.PNG)
+
 ---
 
 ## Features
