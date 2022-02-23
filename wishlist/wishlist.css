@@ -1,6 +1,3 @@
-.ecom-nav {
-    height: 8rem;
-}
 
 .main-heading {
     font-size: 4rem;
@@ -12,6 +9,7 @@
 .card-container {
     padding: 0rem 5rem;
     justify-content: center;
+    gap: 10px;
 }
 
 .overlay-btn-heart {

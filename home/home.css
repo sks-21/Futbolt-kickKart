@@ -96,3 +96,16 @@
 .footer-link:hover {
     color: var(--color-primary);
 }
+
+
+@media only screen and (max-width:600px) {
+
+    :root {
+        font-size: 50%;
+    }
+
+    .header-content{
+        margin-top: 20rem;
+    }
+
+}
