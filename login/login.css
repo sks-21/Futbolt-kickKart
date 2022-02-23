@@ -31,7 +31,7 @@
     text-align: center;
 }
 
-.link-containers{
+.link-containers {
     justify-content: space-between;
 }
 
@@ -44,7 +44,7 @@
     cursor: pointer;
 }
 
-.link-forgot{
+.link-forgot {
     text-decoration: none;
     color: var(--color-primary-light)
 }
@@ -62,4 +62,24 @@
 .form-input:focus {
     outline: none;
     border: 2px solid var(--color-primary);
+}
+
+/* ||Media queries  */
+@media only screen and (max-width:620px) {
+
+    :root {
+        font-size: 55%;
+    }
+}
+
+@media only screen and (max-width:420px) {
+
+    :root {
+        font-size: 50%;
+    }
+
+    .nav-btn {
+        margin-top: 1rem;
+    }
+
 }

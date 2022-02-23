@@ -54,3 +54,24 @@
     outline: none;
     border: 2px solid var(--color-primary);
 }
+
+
+/* ||Media queries  */
+@media only screen and (max-width:620px) {
+
+    :root {
+        font-size: 55%;
+    }
+}
+
+@media only screen and (max-width:420px) {
+
+    :root {
+        font-size: 50%;
+    }
+
+    .nav-btn {
+        margin-top: 1rem;
+    }
+
+}
